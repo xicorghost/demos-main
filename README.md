@@ -9,11 +9,11 @@ lol
 
 
 - Obtener todos los productos
-  GET http://localhost:8088/productos
+  GET http://localhost:8080/productos
 
 
 - Obtener producto por id
-  GET http://localhost:8088/productos/{id}
+  GET http://localhost:8080/productos/{id}
 
 
 - Crear productos
