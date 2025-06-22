@@ -43,4 +43,15 @@ class ProductoServiceTest {
         assertThat(resultado.getId()).isEqualTo(1L);
         verify(productoRepository).save(producto);
     }
+    /*test listar producto */
+     @Test
+    void testListarProductos() {
+        Producto p1 = new Producto(1L, "Shampoo ecológico", 50, 3990.0, "Higiene");
+        Producto p2 = new Producto(4L, "Bolsa reutilizable", 80, 2490.0, "Accesorios");
+        when(productoRepository.findAll()).thenReturn(Arrays.asList(p1, p2));
+
+        List<Producto> resultado = productoService.listarProductos();
+        assertThat(resultado).hasSize(2).contains(p1, p2);
+        verify(productoRepository).findAll();
+    }
 }
