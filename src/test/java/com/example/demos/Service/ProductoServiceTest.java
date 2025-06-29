@@ -1,5 +1,5 @@
 
-package com.example.demo.Service;
+package com.example.demos.Service;
 
 import com.example.demos.Model.Producto;
 import com.example.demos.Repository.ProductoRepository;

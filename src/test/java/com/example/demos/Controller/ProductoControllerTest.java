@@ -1,4 +1,4 @@
-package com.example.demo.Controller;
+package com.example.demos.Controller;
 
 import com.example.demos.Model.Producto;
 import com.example.demos.Service.ProductoService;
