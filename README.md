@@ -31,6 +31,7 @@ lol
   "precio": 999.99,
   "categoria": "Electrónica"
 }
+
 {
     "id": 2,
     "nombre": "Smartphone",
@@ -38,6 +39,7 @@ lol
     "precio": 499.99,
     "categoria": "Electrónica"
   },
+
   {
     "id": 3,
     "nombre": "Silla de oficina",
@@ -45,6 +47,7 @@ lol
     "precio": 149.50,
     "categoria": "Muebles"
   },
+
   {
     "id": 4,
     "nombre": "Botella térmica",
@@ -52,6 +55,7 @@ lol
     "precio": 19.99,
     "categoria": "Hogar"
   },
+
   {
     "id": 5,
     "nombre": "Teclado mecánico",
@@ -59,6 +63,7 @@ lol
     "precio": 89.95,
     "categoria": "Informática"
   },
+
   {
     "id": 6,
     "nombre": "Auriculares inalámbricos",
@@ -66,3 +71,8 @@ lol
     "precio": 129.00,
     "categoria": "Audio"
   }
+  ### ADVERTENCIA
+  -El dia jueves 26 descubri cual fue el problema, y era esque no aprete el f5,
+  pero despues en los puertos por alguna razon lo deje en localhost:3306 pero no 
+  funcionaba las peticiones en el postman pero despues las puse con localhost:8080
+  pero seguia estando en 3306 pero todo funcionaba bien asi que lo deje asi xd.
