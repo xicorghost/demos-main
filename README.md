@@ -2,7 +2,7 @@
 
 lol
 
-## Endpoints para pruebas (Postman o navegador)
+## 2. Endpoints para pruebas (Postman o navegador)
 
 
 ### Productos
@@ -71,8 +71,21 @@ lol
     "precio": 129.00,
     "categoria": "Audio"
   }
-  ### ADVERTENCIA
+  - Actualizar producto
+    PUT http://localhost:8080/productos/{id}
+
+  - Eliminar producto
+    DELETE http://localhost:8080/productos/{id}
+  ### 4. ADVERTENCIA
   -El dia jueves 26 descubri cual fue el problema, y era esque no aprete el f5,
   pero despues en los puertos por alguna razon lo deje en localhost:3306 pero no 
   funcionaba las peticiones en el postman pero despues las puse con localhost:8080
   pero seguia estando en 3306 pero todo funcionaba bien asi que lo deje asi xd.
+
+
+  ### 5. Cómo probar los endpoints en Postman
+  -Crear una nueva petición.
+  -Elegir el método HTTP (GET, POST, PUT, DELETE).
+  -Escribir la URL correspondiente.
+  -Para POST y PUT, ir a la pestaña Body, seleccionar raw y JSON, y pegar uno de los ejemplos JSON.
+  -Hacer clic en Send y revisar la respuesta.
